@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 11 - Imagens Flexíveis, Audios e Vídeos</title>
+</head>
+<body>
+    <h1>Exercício 11 - Multimedia</h1>
+    <hr>
+<br>
+
+    <picture>
+        <source media="(max-width: 760px)" srcset="Imagens/paisagem3.jpg" type="image/jpg">
+        <source media="(max-width: 1010px)" srcset="Imagens/paisagem2.jpg" type="image/jpg">
+        <img src="imagens/paisagem.jpg" alt="Imagem Flexivel/Responsiva">
+    </picture>
+
+<br>
+
+    <h1>Aúdios</h1>
+    <p>Dorian Concept - Space 2</p>
+    <audio preload="metadata" controls autoplay loop> <!-- O autoplay funciona, mas o navegador do google, o chome, desativa por conta que muitos usuários se sentiam incomodados com audio sendo reproduzido automaticamente-->
+        <source src="audio/dorian-space2.mp3" type="audio/mp3">
+        <p>Seu navegador não suporta aúdio <a href="audio/dorian-space2.mp3" download="dorian-space2.mp3" type="audio/mp3"></a></p>
+    </audio>
+
+<br>
+
+    <h1>Vídeos Hospedados no próprio Servidor</h1>
+    <p>Dorian Concept - Space II (Official Video)</p>
+    <video src="videos/Dorian Concept - Space II.mp4" width="560" height="315" poster="videos/thumb.jpg" controls autoplay>
+        <source src="videos/Dorian Concept - Space II.mp4" type="video/mp4">
+        <p>Infelizmente seu navegador não conseguiu carregar o vídeo!</p>
+    </video>
+
+<br>
+
+    <h1>Vídeos Incorporados do Youtube</h1>
+    <p>Dorian Concept - 'Hide (CS01 Version)' (Official Video)</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tlFolRo1WiE?si=sHtu1rtRQu_LD0I9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

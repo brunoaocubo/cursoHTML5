@@ -1,0 +1,15 @@
+button{
+    background-color: rgb(21, 255, 0);
+}
+
+mark{
+    background-color: rgb(255, 0, 0);
+}
+
+dt{
+    color: brown;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
