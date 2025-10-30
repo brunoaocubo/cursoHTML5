@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/*Regra @charset caso haja problemas com acentuação*/
+
+body{
+    background-color: rgb(253, 185, 58);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(255, 60, 1);
+    background-color: rgb(248, 245, 46);
+    font-size: 40px;
+}
+ins{
+    color: rgb(255, 60, 1);
+}
+h2{
+    color: rgb(65, 78, 18);
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+.linkNext{
+    display: grid;
+    text-align: right;
+}
+
+.linkPrev{
+    display: grid;
+    text-align: initial;
+}

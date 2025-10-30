@@ -3,9 +3,17 @@
 }
 
 #PaginaVerde{
-    background-color: rgb(99, 240, 99);
+    background-color: rgb(73, 243, 73);
 }
 
 #PaginaAmarela{
     background-color: rgb(248, 242, 182);
+}
+
+#textoPaginaVerde{
+    color: rgb(12, 97, 12);
+}
+
+#textoPaginaAmarela{
+    color: rgb(228, 157, 3);
 }

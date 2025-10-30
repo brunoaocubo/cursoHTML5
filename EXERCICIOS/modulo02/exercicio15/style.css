@@ -1,0 +1,23 @@
+h2{
+    color: white;
+}
+
+.colorName > .white{
+    background-color: brown;
+}
+
+.colorHex{
+    background-color: #a52a2a;
+}
+
+.colorRgb{
+    background-color: rgb(165,42,42);
+}
+
+.colorHsl{
+    background-color: hsl(0, 59%, 41%);
+}
+
+.colorAlpha{
+    background-color: rgba(165, 42, 42, 50%);
+}
