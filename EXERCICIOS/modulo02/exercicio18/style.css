@@ -1,0 +1,71 @@
+*{/*Configurações globais do CSS*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo-principal{
+    color: #00ff66;
+    background-image: linear-gradient(to left, #35A060, #324B3C );
+}
+
+body{
+    background-image: linear-gradient( to bottom,#35a060,#00F564);
+    background-attachment: fixed;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #2a804c;
+}
+
+aside{
+    position: fixed;
+    top: 1%;
+    background-color: white;
+    width: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 7px #2a804c;
+}
+
+aside.menu{
+    left: 1%;
+}
+
+aside.contatos{
+    left: 1%;
+    top: 22%;
+}
+
+aside > h1{
+    text-align: center;
+    font-size: 20px;
+    transform: translateY(-20px);
+    color: #00ff66;
+    text-shadow: 0px 1px 1px #1f643b;
+}
+
+aside > ul{
+    padding: 0px 10px 0px;
+}
+
+h1{
+    font-size: 2em;
+    color: green;
+}
+
+h2{
+    color: green;
+    text-shadow: 0px 1px 1px #247242;
+}
+
+.topico{
+    text-align: right;
+}
+
+.texto{
+    text-align: justify;
+}

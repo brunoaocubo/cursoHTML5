@@ -21,3 +21,8 @@ h2{
 .colorAlpha{
     background-color: rgba(165, 42, 42, 50%);
 }
+
+body{
+    background-image: linear-gradient(to right, rgb(122, 122, 91) 20%, rgb(226, 26, 26) 70%);
+    color: black;
+}

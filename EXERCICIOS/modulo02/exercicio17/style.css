@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*Fonte Externa utilizando link externo*/
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+
+/*Fonte Interna instalando localmente*/
+@font-face {
+    font-family: 'Momo Signature';
+    src: url(fonts/MomoSignature-Regular.ttf);
+}
+
+p.font1{
+    font: italic bold 20px Arial, Helvetica, sans-serif;
+}
+
+p.font2{
+    font-family: 'Momo Signature', Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+p.font3{
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+}
+
+p{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(90deg,rgb(162, 0, 255, 90%), black 75%);
+}
+
+body{
+    background-color: rgb(75, 53, 124);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+}
