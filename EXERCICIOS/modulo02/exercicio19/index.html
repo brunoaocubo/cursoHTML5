@@ -3,30 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio 19 - Classes em CSS</title>
+    <title>Exercicio 19 - Pseudos Classes e Elementos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="navbar">
-        <a href="#home">Inicio</a>
-        <a href="#news">Notícias</a>
-        <a href="#contact">Contatos</a>
-    </div>
-        <div class="main">
-        <h1 id="titulo-principal">Estadão 150</h1>
-    </div>
+    <h1>Exercicio 19 - Pseudos-Classes e Pseudos-Elementos</h1>
+    <hr>
 
-    <h2>Amazon lança sua própria distribuição Linux</h2>
-    <p>A gigante de comércio Amazon surpreende mais uma vez e lança uma distribuição Linux própria. O novo sistema operacional de código aberto é chamado Bottlerocket. Porém, muita calma nessa hora. Antes de se empolgar com a distro e tentar fazer a instalação você precisa saber que ela não funciona da mesma forma que outras ‘normais’ como Ubuntu, Debian ou Fedora.</p>
-    <h3>Conheça a Bottlerocket: distribuição Linux da Amazon para execução de contêineres</h3>
-    <p>Muita coisa mudou no setor de TI desde que o termo computação em nuvem foi cunhado pela primeira vez. Demora alguns segundos para implantar um servidor Linux (geralmente executando em uma VM), graças a provedores de servidores em nuvem como Amazon AWS, Google, Linode, Digital Ocean etc. Além disso, você pode implantar aplicativos e serviços nesses servidores na forma de recipientes graças a ferramentas como Docker e Kubernetes.</p>
-    <p>O problema é que, quando seu único objetivo é executar contêineres em um sistema Linux, nem sempre é necessária uma distribuição Linux completa. É por isso que existem sistemas específicos para contêineres que fornecem apenas os pacotes necessários. Isso reduz drasticamente o tamanho do sistema operacional e o tempo de implantação. O Bottlerocket Linux é desenvolvido especificamente pela Amazon Web Services para executar contêineres em máquinas virtuais ou hosts bare metal. Ele suporta docker images além de outras que seguem o formato de imagem OCI.</p>
-    <h3>Recursos do Bottlerocket Linux</h3>
-    <p>Nenhuma atualização pacote por pacote. O procedimento tradicional de uma distribuição Linux é composto pela atualização de pacotes individuais. Bottlerocket usa atualizações baseadas em imagem. Graças a essa abordagem, conflitos e quebras são evitados com a possibilidade de uma reversão rápida e completa (se necessário). Sistema de arquivos somente leitura. O Bottlerocket também usa um sistema de arquivos somente leitura. Sua integridade é verificada no momento da inicialização via dm-verity. Para medidas de segurança adicionais, o acesso SSH também é desencorajado e só está disponível através do contêiner de administrador (mecanismo adicional).</p>
-    <h3>Atualizações automatizadas</h3>
-    <p>Você pode automatizar as atualizações do Bottlerocket usando um serviço de orquestração como o Amazon EKS. A Amazon também afirma que incluir apenas o software essencial para executar contêineres reduz o número de ataques em comparação com as distribuições Linux de uso geral.</p>
-    <h3>O que você acha?</h3>
-    <p class="boxYellow">A Amazon não é a primeira a criar um ‘Linux específico para contêineres’. O CoreOS foi uma das primeiras distribuições desse tipo. O CoreOS foi adquirido pela Red Hat, que foi vendida para a IBM. A Red Hat recentemente interrompeu o CoreOS e o substituiu pelo Fedora CoreOS. O servidor em nuvem é uma grande indústria que continuará a crescer. Um gigante como a Amazon fará de tudo para ficar à par ou à frente de seus concorrentes. Na minha opinião, Bottlerocket é uma resposta para (agora) o Fedora CoreOS da IBM. Embora os repositórios Bottlerocket estejam disponíveis no GitHub , ainda não é possível achar um pronto para criar imagens. No momento, ele está disponível apenas como uma prévia na AWS. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quaerat distinctio consectetur! Voluptatum culpa ipsa atque nobis minima velit optio, nostrum facilis distinctio perspiciatis deleniti commodi omnis quam, voluptates fuga!</p>
+    <h1>Personalizando Links</h1>
 
+    <p> Para aprender HTML5 e CSS3, acesse o <a href="https://github.com/gustavoguanabara/html-css">Github do Guanabara</a>
+    </p>
+
+    <p>Se quiser conhecer mais sobre os padrões, visite o site do <a href="http://www.w3c.br">Escritório do W3C no Brasil</a>
+    </p>
+
+    <p>Para acompanhar os cursos, acesse o <a href="http://www.youtube.com/cursoemvideo/" class="especial">canal do Curso em Video</a>
+    </p>
+
+    <hr>
+    <h1>Conteúdo Especial</h1>
+    <div>Passe o mouse aqui
+        <p>SURPRESA!</p>
+    </div>
+    <p>Veja o conteúdo oculto aparecendo!</p>
 </body>
 </html>

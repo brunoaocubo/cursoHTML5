@@ -3,10 +3,18 @@
 /*Fonte Externa utilizando link externo*/
 @import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
 
-/*Fonte Interna instalando localmente*/
+/*Fonte Externa instalada localmente dentro da pasta*/
 @font-face {
     font-family: 'Momo Signature';
-    src: url(fonts/MomoSignature-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+    src: url(fonts/MomoSignature-Regular.ttf), format('truetype');
+    /*formats
+    - ttf = truetype
+    - otf = opentype
+    - woff = woff
+    - woff2 = woff2
+    */
 }
 
 p.font1{

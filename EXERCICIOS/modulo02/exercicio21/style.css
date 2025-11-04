@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+div{
+    height: 100px;
+    width: 500px;
+    border: 10px;
+}
+
+.containerDiv{
+    display: flex;
+}
+
+#fSquare{
+    background-color: darkred;
+    color: red;
+}
+
+#sSquare{
+    background-color: darkblue;
+}
+
+#tSquare{
+    background-color: darkgreen
+}
+
+#qSquare{
+    background-color: darkgray;
+}
+
+#quinSquare{
+    background-color: darkblue;
+}
