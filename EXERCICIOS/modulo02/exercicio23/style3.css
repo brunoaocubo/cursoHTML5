@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+div.block{
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-image: url(imagens/wallpaper003.jpg);
+}
+
+.block#b1{
+    background-position: right top;
+}
+
+.block#b2{
+    background-position: right center;
+}
+
+.block#b3{
+    background-position: left top;
+    
+}
+
+.block#b4{
+    background-position: center; 
+}
