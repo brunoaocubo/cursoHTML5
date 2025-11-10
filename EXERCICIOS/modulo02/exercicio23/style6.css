@@ -1,21 +1,10 @@
 @charset "UTF-8";
 
 body{
+    background-image: url(../../../imagens/mascote.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100px;
     height: 98vh;
-
-    /*Shorthand Background
-    background: color > image > position > repeat > [size] > attachment
-    */
-
-    background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
-    background-size: cover;
-}
-
-div {
-    background-color: white;
-    max-width: 400px;
-    margin: auto;
-    padding: 10px;
-    border-radius: 5px;
-    border: 2px solid black;
+    border: 1px dashed black;
 }

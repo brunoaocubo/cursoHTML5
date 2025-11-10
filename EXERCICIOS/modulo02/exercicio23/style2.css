@@ -1,7 +1,26 @@
 @charset "UTF-8";
 
-
-body{
-    background-size: 300px;
+div{
+    border: 3px solid black;
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    background-color: rgb(161, 161, 161);
+}
+div#q1{
+    background-image: url(imagens/pattern001.png);
+    background-repeat: repeat-x;
+}
+div#q2{
+    background-image: url(imagens/pattern002.png);
+    background-repeat: repeat-y;
+}
+div#q3{
     background-image: url(imagens/pattern003.png);
+    background-repeat: repeat;
+}
+
+div#q4{
+    background-image: url(imagens/pattern001.png);
+    background-repeat: no-repeat;
 }

@@ -22,5 +22,5 @@ div.block{
 }
 
 .block#b4{
-    background-position: center; 
+    background-position: center center; 
 }
