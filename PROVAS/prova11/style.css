@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body,html,main,header,footer,h1,h2,h3,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+
+div.container-father{
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(imagens/espaco.jpg);
+}
+
+#container-child{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
