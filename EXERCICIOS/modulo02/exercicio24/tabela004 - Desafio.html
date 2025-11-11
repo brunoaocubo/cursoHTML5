@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 24.4 - Mesclagem de Células com Vários Dados</title>
+    <link rel="stylesheet" href="estilos/style4.css">
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <th scope="colgroup">Grupos</th>
+            <th scope="col">Nomes</th>
+            <th colspan="3" scope="colgroup">Filmes</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Mulheres</th>
+            </tr>
+            <tr>
+                <td>Paola</td>
+                <td>O caçador</td>
+                <td>Looneytunes</td>
+                <td>Presságio</td>
+            </tr>
+            <tr>
+                <td>Samantha</td>
+                <td>Harry Potter</td>
+                <td>Coração de Ferro</td>
+                <td>Ó pai ó</td>
+            </tr>
+            <tr>
+                <td>Marcela</td>
+                <td>Crepusculo</td>
+                <td>Barraca do Beijo</td>
+                <td>The end</td>
+            </tr>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Homens</th>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>Padrinhos Mágicos</td>
+                <td>Jujutsu Kaizen</td>
+                <td>Kimetsu no Yaiba</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>Naruto: O filme</td>
+                <td>O Caçador de Ventos</td>
+                <td>O dia de Amanhã</td>
+            </tr>
+            <tr>
+                <td>Jonas</td>
+                <td>Elysium</td>
+                <td>Os Suspeitos</td>
+                <td>Interestelar</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="4" scope="row">TOTAL</th>
+            <td><strong>1000</strong></td>
+        </tfoot>
+    </table>
+</body>
+</html>
