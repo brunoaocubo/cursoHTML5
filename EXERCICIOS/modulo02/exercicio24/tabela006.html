@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 24.6 - Agrupando Colunas com Colgroup</title>
+    <link rel="stylesheet" href="estilos/styles6.css">
+</head>
+<body>
+    <h1>Agrupando Colunas com Colgroup</h1>
+
+    <table>
+    <!--Utilizando o span, é possível dizer que quer definir mais de uma coluna com a mesma classe.
+
+     - class="c-name" span="2" : Duas colunas terão a mesma classe
+     - class="c-sexo" span="3" : Três colunas terão a mesma classe
+    
+     -->
+     
+        <colgroup>
+            <col class="c-name" span="2"> 
+            <col class="c-sexo">
+            <col class="c-idade">
+            <col class="c-prof">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <thead>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>35</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>M</td>
+                <td>20</td>
+                <td>Hortifruti</td>
+            </tr>
+            <tr>
+                <td>Pablo</td>
+                <td>M</td>
+                <td>54</td>
+                <td>Carteiro</td>
+            </tr>
+            <tr>
+                <td>Marcela</td>
+                <td>F</td>
+                <td>18</td>
+                <td>Caixa</td>
+            </tr>
+            <tr>
+                <td>Samantha</td>
+                <td>F</td>
+                <td>26</td>
+                <td>Funileira</td>
+            </tr>
+            <tr>
+                <td>Roselie</td>
+                <td>F</td>
+                <td>31</td>
+                <td>Manicure</td>
+            </tr>           
+        </tbody>
+    </table>
+</body>
+</html>

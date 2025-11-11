@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    height: 300px;
+    min-width: 400px;
+}
+caption{
+    font-size: 1.5em;
+}
+td,th{
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+col.c-name{
+    background-color: yellow;
+}
+
+col.c-idade{
+    background-color: aquamarine;
+}
+
+col.c-sexo{
+    background-color: lightblue;
+}
+
+col.c-prof{
+    background-color: brown;
+}
