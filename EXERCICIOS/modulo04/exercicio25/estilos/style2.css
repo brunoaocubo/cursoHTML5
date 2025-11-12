@@ -1,0 +1,12 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe{
+    /*display: block;
+    margin: auto;*/
+    
+    overflow-x: auto;
+    width: 670px;
+    height: 304px;
+}
