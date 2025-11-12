@@ -1,12 +1,20 @@
+p{
+    margin: 0;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-iframe{
-    /*display: block;
-    margin: auto;*/
-    
+div#container{
     overflow-x: auto;
+}
+
+div > iframe{
+    display: block;
+    margin: auto;
+    
     width: 670px;
-    height: 304px;
+    min-height: 370px;
+    padding-bottom: 20px;
 }
