@@ -24,10 +24,14 @@
             max-width: 100%;
             margin-bottom: -4px;
         }
-
-        #container{
+        
+        div{
             position: relative;
-            background-color: red;
+        }
+
+        div a{
+            position: absolute;
+            background-color: darkred;
             color: white;
             width: 100%;
             height: 10vh;
@@ -39,25 +43,19 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
-
-        p > a{
-            text-decoration: none;
-            color: white;
-        }
-
-        p > a:hover{
+        a:hover{
             text-decoration: underline;
-            background-color: brown;
+            background-color: red;
         }
     </style>
 </head>
 
 <body>   
     <img src="imagens/tela-youtube.png" id="img">
-    <div id="container">
-        <p id="text-link">
-            <a href="https://www.youtube.com/cursoemvideo" target="_blank" rel="no-referrer">Acesse o perfil</a>
-        </p>
-    </div>   
+    <div>
+        <a href="https://www.youtube.com/cursoemvideo" target="_blank" rel="no-referrer">
+            <p id="text-link">Acesse o perfil</p>
+        </a>
+    </div>
 </body>
 </html>

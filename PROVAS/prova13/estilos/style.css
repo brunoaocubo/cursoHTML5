@@ -15,7 +15,7 @@ body{
     position: relative;
 }
 
-.container{
+div.container{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -30,7 +30,7 @@ body{
     overflow: hidden;
 }
 
-.telas{
+div.telas{
     overflow: scroll;
     height: 76.4%;
     margin-top: 10.7%;
@@ -65,7 +65,7 @@ nav > a{
 }
 
 .img-redes:hover{
-    transform: scale(110%, 110%);
+    transform: scale(120%, 120%);
     box-shadow: 2px 3px 10px black;
     border: 1px solid white;
     transition-duration: 0.5s;
