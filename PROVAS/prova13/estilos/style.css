@@ -12,16 +12,21 @@ div, img, iframe{
 body{
     background: black url("../imagens/fundo-madeira.jpg") center top no-repeat fixed;
     background-size: cover;
+    position: relative;
 }
 
 .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+
     background-image: url(../imagens/frame-iphone.png);
     background-size: cover;
     background-repeat: no-repeat;
 
-    max-width: 350px;
+    width: 350px;
     height: 700px;
-    margin: auto;
     overflow: hidden;
 }
 
@@ -39,21 +44,33 @@ iframe{
 
 nav{
     position: fixed;
-    width: 100%;
-    right: 0;
-    top: 5%;
-    left: 90%;
+    width: 100px;
+    top: 10%;
+    right: 0%;
     overflow-y: auto;
     height: 100vh;
 }
 
-.botões{
-    width: 50px;
-    height: 50px;   
+nav > a{
+    display: block;
 }
 
-.img-botões{
+.img-redes{
+    box-shadow: 1px 0px 5px black;
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    box-sizing: border-box;
+    margin: 10px 10px 10px 20px;
+}
+
+.img-redes:hover{
+    transform: scale(110%, 110%);
+    box-shadow: 2px 3px 10px black;
+    border: 1px solid white;
+    transition-duration: 0.5s;
+}
+
+.img-redes:active{
+    filter: brightness(200%);
 }
