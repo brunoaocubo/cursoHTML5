@@ -17,16 +17,14 @@ Aprendendo a gerenciar os repositórios com Git e Github.
     <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo01/exercicio12/" target="_blank">Exercicio 12</a>
     <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo01/exercicio13/" target="_blank">Exercicio 13</a>
     <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo01/exercicio14/index.html" target="_blank">Exercicio 14</a>
-    <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo01/exercicio15/index.html" target="_blank">Exercicio 15</a>
-    <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo01/exercicio16/index.html" target="_blank">Exercicio 16</a>
-    <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo01/exercicio17/index.html" target="_blank">Exercicio 17</a>
-    <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo01/exercicio18/index.html" target="_blank">Exercicio 18</a>
-    <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo01/exercicio19/index.html" target="_blank">Exercicio 19</a>
-    <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo01/exercicio20/index.html" target="_blank">Exercicio 20</a>
-    <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo01/exercicio21/index.html" target="_blank">Exercicio 21</a>
-    <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo01/exercicio22/index.html" target="_blank">Exercicio 22</a>
-    <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo01/exercicio14/index.html" target="_blank">Exercicio 14</a>
-
+    <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo02/exercicio15/index.html" target="_blank">Exercicio 15</a>
+    <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo02/exercicio16/index.html" target="_blank">Exercicio 16</a>
+    <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo02/exercicio17/index.html" target="_blank">Exercicio 17</a>
+    <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo02/exercicio18/index.html" target="_blank">Exercicio 18</a>
+    <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo02/exercicio19/index.html" target="_blank">Exercicio 19</a>
+    <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo02/exercicio20/index.html" target="_blank">Exercicio 20</a>
+    <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo02/exercicio21/index.html" target="_blank">Exercicio 21</a>
+    <li><a href="https://brunoaocubo.github.io/cursoHTML5/EXERCICIOS/modulo02/exercicio22/index.html" target="_blank">Exercicio 22</a>
 </ul>
 
 <br>
