@@ -19,7 +19,7 @@ div.container{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 10%);
+    transform: translate(-50%, -20%);
 
     background-image: url(../imagens/frame-iphone.png);
     background-size: cover;
@@ -43,16 +43,8 @@ iframe{
 }
 
 nav{
-    position: fixed;
-    width: 100px;
-    top: 10%;
-    right: 0%;
-    overflow-y: auto;
-    height: 100vh;
-}
-
-nav > a{
     display: block;
+    text-align: right;
 }
 
 .img-redes{
