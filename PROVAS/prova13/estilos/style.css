@@ -73,4 +73,5 @@ nav > a{
 
 .img-redes:active{
     filter: brightness(200%);
+    transform: scale(140%, 140%);
 }
