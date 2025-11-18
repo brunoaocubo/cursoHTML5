@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 26.3 - Formulários</title>
+</head>
+<body>
+    <h1>Teste de Formulários</h1>
+    <form action="cadastro.php" autocomplete="on" method="get">
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" autocomplete="name" required placeholder="Nome Completo" maxlength="30">
+        </p>
+        <p>
+            <label for="imedia">Média: </label>
+            <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.1" required>
+        </p>
+        <p>
+            <label for="imes">Periodo Letivo: </label>
+            <input type="month" name="mes" id="imes" required value="2025-02">
+        </p>
+        <p>
+            <label for="idata">Data: </label>
+            <input type="date" name="data" id="idata">
+        </p>
+        <p>
+            <label for="itime">Horário: </label>
+            <input type="time" name="time" id="itime">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
