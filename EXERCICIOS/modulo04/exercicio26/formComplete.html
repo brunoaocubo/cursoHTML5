@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 26.11 - Todos os formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo-principal">Exercicio Final de Formulário</h1>
+        <p id="resumo">Nesta página estarei utilizando todos os conteúdos sobre formulários e montando um exercicio compilado.</p>
+        <hr>
+    </header>
+    <nav>
+        <a href="#">Link 1</a> 
+        <a href="#">Link 2 </a> 
+        <a href="#">Link 3</a> 
+        <a href="#">Link 4</a>
+    </nav>
+    <main>
+        <section class="form">
+            <h2>Formulário 1</h2>
+            <p>Uso de Input:text e Label</p>
+
+            <!--Abertura do Formulário-->
+            <form action="#" method="post" autocomplete="off">
+                <p>
+                    <label for="inome">Nome: </label>
+                    <input type="text" name="nome" id="inome">
+                    
+                    <br>
+
+                    <label for="isobrenome">Sobrenome: </label>
+                    <input type="text" name="sobrenome" id="isobrenome">
+                </p>
+                
+                <p>
+                    <p>Input:submit e Input:reset</p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </form>
+            <!--Fechamento do Formulário-->
+        </section>
+        <section class="form">
+            <h2>Formulário 2</h2>
+            <p>Uso de Input:password e outros atributos. <br>
+            
+            <!--Abertura de Formulário-->
+            <form action="#" method="post" autocomplete="on">
+                <p>
+                    <label for="iuser">Usuário: </label>
+                    <input type="text" name="user" id="iuser" minlength="5" maxlength="20" size="20" placeholder="Nome de Usuário" autocomplete="username" required>
+                    
+                    <br>
+
+                    <label for="isen">Senha: </label>
+                    <input type="password" name="senha" id="isen" minlength="8" size="21" placeholder="Minimo de 8 letras" autocomplete="new-password" required>
+                </p>
+
+                <p>
+                    <input type="submit" value="Cadastrar">
+                    <input type="reset" value="Limpar">
+                </p>     
+            </form>
+            <!--Fechamento de Formulário-->
+            </p>
+        </section>
+        <section class="form">
+            <h2>Formulário 3</h2>
+            <p></p>
+            <form action="#" method="post" autocomplete="on">
+                <p>
+                    <label for="inome2">Nome Completo: </label>
+                    <input type="text" name="nome" id="inome2" minlength="5" size="30" placeholder="Insira o nome completo..." autocomplete="name" required>
+                </p>
+                <p>
+                    <label for="imed">Média: </label>
+                    <input type="number" name="media" id="imed" min="0" max="10" step="0.1" placeholder="5,0" required>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar Média">
+                    <input type="reset" value="Limpar">
+                </p>     
+            </form>
+        </section>
+        <section class="form">
+            <h2>Formulário 4</h2>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+
+                <p>
+                    <label for="inome3">Nome: </label>
+                    <input type="text" name="nome" id="inome3">
+                </p>
+                <p>
+                    <label for="iemail">Email: </label>
+                    <input type="email" name="email" id="iemail">
+                </p>
+                <p>
+                    <label for="itel">Telefone: </label>
+                    <input type="tel" name="tel" id="itel">
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </fieldset>
+        </section>
+        <section class="form"></section>
+        <section class="form"></section>
+        <section class="form"></section>
+        <section class="form"></section>
+        <section class="form"></section>
+        <section class="form"></section>
+
+    </main>
+    <footer>
+        <p>Página desenvolvida por Bruno Carvalho para o Curso em Vídeo</p>
+    </footer>
+</body>
+</html>
