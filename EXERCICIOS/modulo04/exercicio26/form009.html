@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 26.9 - Formulários</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="#" method="get" autocomplete="on">
+        <p>
+            <label for="inum">Número: </label>
+            <input type="range" name="numero" id="inum" min="0" max="10" value="5" required oninput="ival.innerHTML = Number(inum.value)">
+            <output name="ival">5</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
