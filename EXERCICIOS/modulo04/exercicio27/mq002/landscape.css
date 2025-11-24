@@ -1,0 +1,7 @@
+h1::after{
+    content: url(imagens/cev-landscape.jpg);
+}
+
+h1{
+    background-color: aqua;
+}
