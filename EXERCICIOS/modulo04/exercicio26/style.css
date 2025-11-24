@@ -16,7 +16,7 @@ header{
 
 nav{
     width: fit-content;
-    height: 120vh;
+    min-height: 100%;
     position: absolute;   
 
     margin: 10px;
@@ -49,14 +49,14 @@ main{
     width: auto;
     max-width: 1000px;
     margin: auto;
-    display: flex;
+    display: grid;
     justify-content: center;
-    flex-wrap: wrap;
+    
 }
 
 main > .form{
     width: 320px;
-    height: 20vh;
+    height: max-content;
     
     padding: 10px;
     margin: 20px;
@@ -67,6 +67,10 @@ main > .form{
     border-radius: 10px;
 }
 
+p{
+    padding: 10px 0px 10px 0px;
+}
+
 legend{
     padding: 5px 2px 5px 2px;
     margin: 5px 2px 5px 2px;
@@ -74,13 +78,13 @@ legend{
 
 fieldset{
     padding: 10px;
+    
 }
 
 footer{
     width: 100%;
     padding: 10px 0px 10px 0px;
-
-    
+        
     text-align: center;
     color: white;
     background-color: darkred;

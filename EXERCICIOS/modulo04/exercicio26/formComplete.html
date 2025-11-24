@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1 id="titulo-principal">Exercicio Final de Formulário</h1>
+        <h1 id="titulo-principal">Resumo dos Formulários</h1>
         <p id="resumo">Nesta página estarei utilizando todos os conteúdos sobre formulários e montando um exercicio compilado.</p>
         <hr>
     </header>
@@ -36,9 +36,9 @@
                 </p>
                 
                 <p>
-                    <p>Input:submit e Input:reset</p>
                     <input type="submit" value="Enviar">
                     <input type="reset" value="Limpar">
+                    Input:submit e Input:reset 
                 </p>
             </form>
             <!--Fechamento do Formulário-->
@@ -69,7 +69,6 @@
         </section>
         <section class="form">
             <h2>Formulário 3</h2>
-            <p></p>
             <form action="#" method="post" autocomplete="on">
                 <p>
                     <label for="inome2">Nome Completo: </label>
@@ -87,37 +86,193 @@
         </section>
         <section class="form">
             <h2>Formulário 4</h2>
-            <fieldset>
-                <legend>Dados Pessoais</legend>
-
+            <form action="#" method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <p>
+                        <label for="inome3">Nome: </label>
+                        <input type="text" name="nome" id="inome3" required>
+                    </p>
+                    <p>
+                        <label for="iemail">Email: </label>
+                        <input type="email" name="email" id="iemail" required>
+                    </p>
+                    <p>
+                        <label for="itel">Telefone: </label>
+                        <input type="tel" name="tel" id="itel" required>
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+        <section class="form">
+            <h2>Formulário 5</h2>
+            <form action="#" method="post" autocomplete="off">
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <input type="radio" name="sexo" id="imasc" value="M">
+                    <label for="imasc">Masculino</label>
+                    <input type="radio" name="sexo" id="ifem">
+                    <label for="ifem">Feminino</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Esportes Favoritos</legend>
+                    <input type="checkbox" name="futebol" id="ifut">
+                    <label for="ifut">Futebol</label>
+                    <br>
+                    <input type="checkbox" name="basq" id="ibasq">
+                    <label for="ibasq">Basquete</label>
+                    <br>
+                    <input type="checkbox" name="trialto" id="itrial">
+                    <label for="itrial">Trialto</label>
+                    <br>
+                    <input type="checkbox" name="golf" id="igolf">
+                    <label for="igolf">Golf</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Maior Esporte do Mundo</legend>
+                    <input type="radio" name="esporte" id="ifut2">
+                    <label for="ifut2">Futebol</label>
+                    <br>
+                    <input type="radio" name="esporte" id="isurf">
+                    <label for="isurf">Surf</label>
+                    <br>
+                    <input type="radio" name="esporte" id="ibasq2">
+                    <label for="ibasq2">Basquete</label>
+                    <br>
+                    <input type="radio" name="esporte" id="iten">
+                    <label for="iten">Tênis</label>
+                </fieldset>
                 <p>
-                    <label for="inome3">Nome: </label>
-                    <input type="text" name="nome" id="inome3">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </form>
+        </section>
+        <section class="form">
+            <h2>Formulário 6</h2>
+            <form action="#" method="post" autocomplete="off">
+                <fieldset>
+                    <label for="icor">Cor: </label>
+                    <input type="color" name="cor" id="icor">
+                    <br>
+                    <label for="ivalor">Valor: </label>
+                    <input type="range" name="valor" id="ivalor" min="0" max="10" step="1">
+                    <br>
+                    <label for="ifile">Insira um arquivo: <br></label>
+                    <input type="file" name="file" id="ifile" multiple>
+                    <br>
+                </fieldset>
+                    <p>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </p>
+            </form>
+        </section>
+        <section class="form">
+            <h2>Formulário 7</h2>
+            <form action="#" method="post" autocomplete="off">
+                <p>
+                    <label for="iest">Estado:</label>
+                    <select name="estado" id="iest">
+                        <option value="" selected>---Escolha---</option>
+                        <optgroup label="Região Norte">
+                            <option value="AM">Amazonas</option>
+                            <option value="RO">Roraima</option>
+                            <option value="TO">Tocantis</option>
+                        </optgroup>
+                        <optgroup label="Região Nordeste">
+                            <option value="BA">Bahia</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="AL">Alagoas</option>
+                        </optgroup>
+                    </select>
                 </p>
                 <p>
-                    <label for="iemail">Email: </label>
-                    <input type="email" name="email" id="iemail">
+                    <label for="iprof">Profissão: </label>
+                    <input type="text" name="prof" id="iprof" list="ilistprof" placeholder="Ex.Pedreiro">
+                    <datalist id="ilistprof">
+                        <option>Desenvolvedor</option>
+                        <option>Professor</option>
+                        <option>Carteiro</option>
+                        <option>Artista</option>
+                    </datalist>
                 </p>
                 <p>
-                    <label for="itel">Telefone: </label>
-                    <input type="tel" name="tel" id="itel">
+                    <label for="imens">Mensagem:</label>
+                    <br>
+                    <textarea name="mensagem" id="imens" placeholder="Insira sua mensagem aqui..." rows="10" cols="30"></textarea>
                 </p>
                 <p>
                     <input type="submit" value="Enviar">
                     <input type="reset" value="Limpar">
                 </p>
-            </fieldset>
+            </form>
         </section>
-        <section class="form"></section>
-        <section class="form"></section>
-        <section class="form"></section>
-        <section class="form"></section>
-        <section class="form"></section>
-        <section class="form"></section>
-
+        <section class="form">
+            <h2>Formulário 8</h2>
+            <form action="#" method="post" autocomplete="on">
+                <p>
+                    <label for="inum1">Primeiro Número: </label>
+                    <input type="number" name="num1" id="inum1" min="0" max="50" value="0" required oninput="isom.innerHTML = Number(inum1.value) + Number(inum2.value)">
+                </p>
+                <p>
+                    <label for="inum2">Segundo Número: </label>
+                    <input type="number" name="num2" id="inum2" min="0" max="50" value="0" required oninput="isom.innerHTML = Number(inum1.value) + Number(inum2.value)">
+                </p>
+                <p>
+                    <label for="isom">Soma: </label>
+                    <output name="soma" id="isom" >0</output>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </form>
+        </section>
+        <section class="form">
+            <h2>Formulário 9</h2>
+            <form action="#" method="post" autocomplete="off">
+                <p>
+                    <input type="range" name="numero" id="irange" min="0" max="10"
+                    value="5" required oninput="ival.innerHTML = Number(irange.value)">
+                    <output name="ival">5</output>
+                </p>
+                <p>
+                    <input type="submit"value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </form>
+        </section>
+        <section class="form">
+            <h2>Formulário 10</h2>
+            <form action="#" method="post" autocomplete="on">
+                <p>
+                    <label for="iano">Ano de Nascimento: </label>
+                    <input type="number" name="ano" id="iano" min="1900" max="2025" value="2025" required oninput="calcIdade()">
+                </p>
+                <p>
+                    <label for="idade">Sua idade é:</label>
+                    <output name="idade" id="iidade">0</output>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </form>
+            <script>
+                function calcIdade(){
+                    let atual = new Date().getFullYear();
+                    iidade.innerHTML = atual - iano.value;
+                }
+            </script>
+        </section>
     </main>
     <footer>
-        <p>Página desenvolvida por Bruno Carvalho para o Curso em Vídeo</p>
+        <p>Página desenvolvida por Bruno Carvalho</p>
     </footer>
 </body>
 </html>
