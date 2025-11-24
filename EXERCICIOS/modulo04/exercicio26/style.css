@@ -3,6 +3,11 @@
     padding: 0%;
 }
 
+:root{
+    --branco: white;
+    --textShadow: 0px 1px 3px black;
+}
+
 body{
     height: 100%;
 
@@ -12,6 +17,19 @@ body{
 
 header{
     text-align: center;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.747), rgb(218, 112, 112));
+}
+
+#titulo-principal{
+    color: var(--branco);
+    text-shadow: var(--textShadow);
+    padding: 20px;
+}
+
+#descricao{
+    color: var(--branco);
+    text-shadow: var(--textShadow);
+    margin-bottom: 10px;
 }
 
 nav{
