@@ -1,7 +1,64 @@
 @charset "UTF-8";
 
+/*Layout para Tablets*/
+@media screen and (min-width: 768px){
+    img#phone{display: none;}
+    img#tv{display: none;}
+    img#pc{display: none;}
+    img#print{display: none;}
+    img#tablet{display: block;}
+
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+}
+
+/*Layout para Pc/Notebook/Laptops*/
+@media screen and (min-width: 992px){
+    img#phone{display: none;}
+    img#tv{display: none;}
+    img#pc{display: block;}
+    img#print{display: none;}
+    img#tablet{display: none;}
+    
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+}
+
+/*Layout para TV*/
+@media screen and (min-width: 1200px){
+    img#phone{display: none;}
+    img#tv{display: block;}
+    img#pc{display: none;}
+    img#print{display: none;}
+    img#tablet{display: none;}
+    
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+}
+
 @media print {
-    img#print{
-        display: block;
+    img#phone{display: none;}
+    img#tv{display: none;}
+    img#pc{display: none;}
+    img#print{display: block;}
+    img#tablet{display: none;}
+    
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+        background-image: url(../imagens/back-print.jpg);
+    }
+    main h1{ /*Não imprime background em impressão*/
+        text-shadow: none;
+        color: black;
+    }
+
+    main::after{
+        content: "Esse conteúdo foi impresso através do CursoEmVideo.com";
+        text-decoration: underline;
     }
 }
