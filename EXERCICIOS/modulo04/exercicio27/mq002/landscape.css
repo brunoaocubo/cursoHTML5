@@ -1,7 +1,7 @@
-h1::after{
-    content: url(imagens/cev-landscape.jpg);
-}
+@charset "UTF-8";
 
-h1{
-    background-color: aqua;
+body{
+    background-image: url(imagens/cev-landscape.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
 }
