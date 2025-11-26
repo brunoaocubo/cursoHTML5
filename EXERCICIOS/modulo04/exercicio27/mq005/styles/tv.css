@@ -1,7 +1,18 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 1200px){
-    body{
-        background-color: grey;
+    li > a{
+        margin-bottom: 0px;
+    }
+    button#menu-hamburguer{display: none;}
+
+    ul#menu-list{
+        display: none;
+        width: 100%;
+    }
+    #menu-list.cmenu{display: inline-block !important;}
+
+    #menu-list li{
+        display: inline-block;
     }
 }

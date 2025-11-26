@@ -12,11 +12,38 @@
 </head>
 <body>
     <header>
-        <h1>Meu Site</h1>
+        <h1 id="titulo-principal">Media Query</h1>
+        <nav>
+                <button onclick="hideAnShow()" id="menu-hamburguer">
+                    <img src="imagens/menu-hamburguer.png" alt="menu-hamburguer">
+                </button>
+            <ul id="menu-list" class="cmenu">
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <h1>Praticando Media Queries</h1>
-        <p class="content-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas voluptas cumque, corporis est nobis autem modi exercitationem hic ratione eveniet neque ipsa pariatur corrupti fuga mollitia, consectetur incidunt quod! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officia sapiente voluptatem, aut ut at asperiores ipsam doloribus nam inventore ipsa sequi quam quos vel earum distinctio nemo nisi? Harum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dignissimos dolor optio laudantium. At cumque iure minima, sunt aliquid sed illo animi iusto quis voluptatem et, earum quibusdam fuga perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias pariatur molestias expedita magni nobis beatae temporibus libero ad vel praesentium consequatur laborum dolorum iste quia rem reiciendis, ipsum saepe dolores! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit quas aspernatur non consequatur omnis asperiores exercitationem laboriosam, vitae laborum earum iste voluptatibus soluta similique sint officiis, dignissimos sequi eveniet sunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repellendus, numquam exercitationem consequuntur rerum, ut, vel non molestias nam possimus pariatur similique doloremque saepe quia aut dolore voluptatem tempore unde! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab impedit perspiciatis veniam magnam, non sed ipsa quis nulla tempora obcaecati debitis neque ducimus dicta quae expedita in itaque illum amet.</p>
+        <section>
+            <h1>Teste de Media Queries (Mobile, Tablet, Desktop, Tv)</h1>
+            <p class="content-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas voluptas cumque, corporis est nobis autem modi exercitationem hic ratione eveniet neque ipsa pariatur corrupti fuga mollitia, consectetur incidunt quod! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officia sapiente voluptatem, aut ut at asperiores ipsam doloribus nam inventore ipsa sequi quam quos vel earum distinctio nemo nisi? Harum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dignissimos dolor optio laudantium. At cumque iure minima, sunt aliquid sed illo animi iusto quis voluptatem et, earum quibusdam fuga perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias pariatur molestias expedita magni nobis beatae temporibus libero ad vel praesentium consequatur laborum dolorum iste quia rem reiciendis, ipsum saepe dolores! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit quas aspernatur non consequatur omnis asperiores exercitationem laboriosam, vitae laborum earum iste voluptatibus soluta similique sint officiis, dignissimos sequi eveniet sunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repellendus, numquam exercitationem consequuntur rerum, ut, vel non molestias nam possimus pariatur similique doloremque saepe quia aut dolore voluptatem tempore unde! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab impedit perspiciatis veniam magnam, non sed ipsa quis nulla tempora obcaecati debitis neque ducimus dicta quae expedita in itaque illum amet.</p>
+        </section>
     </main>
+
+    <script>
+        function hideAnShow(){
+            var menu = document.getElementById('menu-list');
+        
+            if(menu.style.display === 'none'){
+                menu.style.display = 'block';
+            }
+            else{
+                menu.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 </html>

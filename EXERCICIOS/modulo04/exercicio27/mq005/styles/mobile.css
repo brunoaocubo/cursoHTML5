@@ -11,33 +11,74 @@ html{
 }
 
 body{
-    background-color: green;
+    background-color: rgb(133, 133, 133);
 }
 
-header > h1{
-    color: rgb(36, 32, 32);
+header{
+    background-color: rgb(68, 68, 68);
+}
+
+h1#titulo-principal{
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 20px;
-    background-color: lightgrey;
+    text-shadow: 0px 1px 3px black;
 }
 
-.content-p{
+button#menu-hamburguer{
+    display: block;
+    margin: auto;
+    width: 100%;
+    border: 0px;
+    cursor: pointer;
+}
 
-    text-align: justify;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#menu-hamburguer img{
+    padding: 5px;
+}
+
+ul.cmenu{
+    display: none;
+}
+
+ul.cmenu > li{
+    text-align: center;
+    background-color: rgb(44, 43, 43);
+}
+
+li > a{
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 3px;
+}
+
+li > a:hover{
+    background-color: rgb(192, 0, 0);
+    text-decoration: underline;
 }
 
 main{
-    width: 320px;
-    margin: auto;
-    margin-top: 20px;
-    background-color: rgba(236, 235, 235, 0.95);
     padding: 20px;
+}
+section{
+    min-width: 10vw;
+    max-width: 768px;
+    margin: auto;
+
+    background-color: rgba(236, 235, 235, 0.95);
     border-radius: 10px;
+    padding: 20px;
 }
 
-main > h1{
+section > h1{
     text-align: start;
     padding-bottom: 20px;
     font-size: 1.3em;
+}
+
+section > .content-p{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
