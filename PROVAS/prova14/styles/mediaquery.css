@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+/* Tablets Size */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-color: blue;
+
+    }
+}
+
+/*Desktop Size*/
+@media screen and (min-width: 992px) {
+    body{
+        background-color: red;
+    }
+}
+
+/*TV Size*/
+@media screen and (min-width: 1200px) {
+    body{
+        background-color: blueviolet;
+    }
+}
