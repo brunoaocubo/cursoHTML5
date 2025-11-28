@@ -1,24 +1,62 @@
 @charset "UTF-8";
 
 
+
 /* Tablets Size */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    body{
-        background-color: blue;
+    *{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    section#container-login{
+        display: flex;
+        
+        flex-wrap: wrap;
+        
+        width: 650px;
+        height: 300px;
+        align-content: flex-start;
+    }  
+    section#container-login > *{
 
     }
+
+    section > span{
+        width: 200px;
+        height: 300px;
+    }
+    section h1#titulo-principal{
+        flex-direction: column;
+        height: max-content;
+        width: 80%;
+    }
+    section p#context{        
+        flex-direction: column;
+        text-align: center;
+        width: 80%;
+    }
+    form{
+        
+    }
+    form p{
+       
+    }
 }
+
 
 /*Desktop Size*/
 @media screen and (min-width: 992px) {
     body{
-        background-color: red;
+        background-image: linear-gradient(to top, rgba(128, 0, 128, 0.589), rgba(55, 67, 243, 0.822));
     }
+    section#container-login{
+        width: 992px;
+    }   
 }
 
 /*TV Size*/
 @media screen and (min-width: 1200px) {
     body{
-        background-color: blueviolet;
+        background-image: linear-gradient(to top, rgba(128, 0, 128, 0.589), rgba(55, 67, 243, 0.822));
     }
 }

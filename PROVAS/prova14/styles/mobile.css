@@ -7,12 +7,27 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(192, 138, 255);
+    background-color: rgb(165, 54, 255);
 }
 
 main{
     position: relative;
     height: 100vh;
+}
+
+h1#titulo-principal{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+p#context{
+    padding-inline: 10px;
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+form{
+    padding-inline: 10px;
 }
 
 section#container-login{
@@ -22,31 +37,93 @@ section#container-login{
     transform: translate(-50%, -50%);
 
     margin: auto;
-    width: 350px;
-    height: 700px;
-    background-color: rgb(241, 129, 245);
-    border-radius: 15px; 
+    width: 300px;
+    height: 620px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px; 
 
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.644);
 }
 
-section > img{
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px 15px 0px 0px;
+section > span{
+    background-image: url(../imagens/metal-pattern.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    border-radius: 20px 20px 0px 0px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.493);
     display: block;
-    height: 300px;
+    height: 250px;
 }
 
-p#context{
-    
-    padding-top: 20px;
-}
-
-p#user, p#password{
+p.user{
     display: block;
-    background-color: rgb(255, 255, 255);
-    margin: 20px 0px 20px 0px;
-    padding: 20px;
+    position: relative;
+    background-color: rgb(108, 39, 117);
+    margin: 5px 0px 0px 0px;
+    border-radius: 10px;
+    padding: 2px 2px 2px 2px;
+}
+p.user > input{
+    position: relative;
+    height: 40px;
+    width: 85%;
+    left: 15%;
+    
+    border-radius: 10px;
+    border-style: none;
+
+    background-color: rgba(79, 255, 202, 0.753);
 }
 
+p.user > input:focus{
+    background-color: white;
+}
+
+p.user > input::placeholder{
+    padding: 5px;
+    font-size: 1.em;
+}
+
+#btn-submit, #btn-clear{
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 0;
+
+    font-size: 1em;
+    color: white;
+    background-color: rgb(148, 105, 248);
+
+    cursor: pointer;
+}
+
+#btn-submit{
+    margin-top: 10px;
+}
+
+#btn-submit:hover, #btn-clear:hover{
+    background-color: blueviolet;
+}
+
+/*Icons*/
+.material-symbols-outlined{
+    color: white;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 500,
+    'GRAD' 0,
+    'opsz' 30
+}
+
+p.user .material-symbols-outlined{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0px 0px 0px 10px;
+}

@@ -6,6 +6,9 @@
     <title>Tela de Login</title>
     <link rel="stylesheet" href="styles/mobile.css" media="all">
     <link rel="stylesheet" href="styles/mediaquery.css">
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=all" />
 </head>
 <body>
     <header>
@@ -13,22 +16,36 @@
     </header>
     <main>
         <section id="container-login">
-            <img src="" alt="">
-            <p id="context">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit molestias nostrum necessitatibus fugiat accusantium, quo provident, unde eveniet, facilis sint blanditiis dignissimos nobis natus quibusdam quaerat iure illo voluptatibus!</p>
+            <span></span>
+            
+            <h1 id="titulo-principal">Login</h1>
+            <p id="context">Seja bem-vindo(a) ao seu hub favorito para compras e vendas on-line. Faça login para acessar a sua conta e desfrutar de todos os produtos disponiveis.</p>
+
+
+            <!--Formulário de Login-->
             <form action="#" method="post" autocomplete="on">
-                <p id="user">
-                    <label for="iuser">Usuário: </label>
-                    <input type="text" name="user" id="iuser" required placeholder="Insira o seu usuário..." size="29">
+                <p class="user">
+                    <label for="iuser"><span class="material-symbols-outlined">person</span></label>
+                    
+                    <input type="text" name="user" id="iuser" placeholder="Insira o seu email" autocomplete="email" required>
                 </p>
-                <p id="password">
-                    <label for="ipass">Senha: </label>
-                    <input type="password" name="pass" id="ipass" required placeholder="Minimo de 8 dígitos" size="30">
+                
+                <p class="user">
+                    <label for="ipass"><span class="material-symbols-outlined">key</span></label>
+                    <input type="password" name="pass" id="ipass" placeholder="Insira a sua senha" autocomplete="current-password" minlength="8" max="16" required>
                 </p>
-                <p>
-                    <input type="submit" value="Entrar">
-                    <input type="reset" value="Limpar">
+
+                <p class="buttons-login">
+                    <button type="submit" value="Entrar" id="btn-submit">Entrar
+                    </button>
+
+                    <button value="Esqueci minha senha" id="btn-clear">
+                        Esqueci minha senha 
+                        <span class="material-symbols-outlined">mail</span>
+                    </button>
                 </p>
             </form>
+
         </section>
     </main>
 </body>
