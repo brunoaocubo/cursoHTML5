@@ -22,13 +22,13 @@ main{
 
 h1#titulo-principal{
     text-align: center;
-    padding: 20px 0px 20px 0px;
+    padding: 15px 0px 15px 0px;
 }
 
 p#context{
     padding-inline: 10px;
     text-align: justify;
-    font-size: 0.9em;
+    font-size: 12px;
 }
 
 form{
@@ -42,7 +42,7 @@ section#container-login{
     transform: translate(-50%, -50%);
     margin: auto;
     width: 300px;
-    height: 620px;
+    height: 580px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px; 
 
@@ -105,10 +105,6 @@ p.user > input::placeholder{
     background-color: rgb(148, 105, 248);
 
     cursor: pointer;
-}
-
-#btn-submit{
-    margin-top: 10px;
 }
 
 #btn-submit:hover, #btn-clear:hover{
