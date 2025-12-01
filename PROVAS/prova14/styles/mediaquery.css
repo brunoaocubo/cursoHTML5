@@ -1,6 +1,35 @@
 @charset "UTF-8";
 
+/*Telas Mobile deitadas*/
+@media screen and (min-width: 600px) and (max-width: 768px) and (orientation: landscape){
+     h1#titulo-principal{
+        padding: 10px 0px 10px 0px;
+    }
+    p#context{
+        font-size: 12px;
+        
+    }
+    section#container-login{
+        display: flex;
+        flex-direction: row;
+        min-width: 650px;
+        height: 280px;   
+    }  
+    div#imagem{
+        width: 45%;  
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+        background-position: center center;
+        background-size: cover; 
+    }
+    #btn-submit, #btn-clear{
+        margin-top: 5px;
+    }
 
+    #imagem,section{
+        transition-duration: 1s;
+    }
+}
 
 /* Tablets Size */
 @media screen and (min-width: 768px) and (max-width: 992px) {

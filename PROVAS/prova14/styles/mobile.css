@@ -12,6 +12,7 @@ p,h1,section{
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(165, 54, 255);
+    overflow-y: hidden;
 }
 
 main{
