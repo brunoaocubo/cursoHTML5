@@ -29,6 +29,10 @@
     #imagem,section{
         transition-duration: 1s;
     }
+
+    body{
+        overflow-y: auto;
+    }
 }
 
 /* Tablets Size */
