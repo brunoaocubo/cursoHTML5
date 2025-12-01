@@ -4,42 +4,34 @@
 
 /* Tablets Size */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    *{
-        margin: 0 !important;
-        padding: 0 !important;
+
+    h1#titulo-principal{
+        padding: 10px 0px 10px 0px;
+    }
+    p#context{
+        font-size: 12px;
+        
     }
     section#container-login{
         display: flex;
-        
-        flex-wrap: wrap;
-        
-        width: 650px;
-        height: 300px;
-        align-content: flex-start;
+        flex-direction: row;
+        min-width: 650px;
+        height: 280px;
+    
     }  
-    section#container-login > *{
-
+    div#imagem{
+        width: 45%;  
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+        background-position: center center;
+        background-size: cover; 
+    }
+    #btn-submit, #btn-clear{
+        margin-top: 5px;
     }
 
-    section > span{
-        width: 200px;
-        height: 300px;
-    }
-    section h1#titulo-principal{
-        flex-direction: column;
-        height: max-content;
-        width: 80%;
-    }
-    section p#context{        
-        flex-direction: column;
-        text-align: center;
-        width: 80%;
-    }
-    form{
-        
-    }
-    form p{
-       
+    #imagem,section{
+        transition-duration: 1s;
     }
 }
 
@@ -47,16 +39,35 @@
 /*Desktop Size*/
 @media screen and (min-width: 992px) {
     body{
-        background-image: linear-gradient(to top, rgba(128, 0, 128, 0.589), rgba(55, 67, 243, 0.822));
+        background-image: linear-gradient(to bottom, rgba(219, 85, 201, 0.479), rgba(0, 255, 234, 0.582));
+    }
+    h1#titulo-principal{
+
+    }
+    p#context{
+        font-size: 14px;
+        padding-bottom: 10px;
+        
     }
     section#container-login{
-        width: 992px;
-    }   
-}
+        display: flex;
+        flex-direction: row-reverse;
+        min-width: 992px;
+        height: 350px;
+        padding: 0;
 
-/*TV Size*/
-@media screen and (min-width: 1200px) {
-    body{
-        background-image: linear-gradient(to top, rgba(128, 0, 128, 0.589), rgba(55, 67, 243, 0.822));
+    }
+
+    div#imagem{
+        width: 100%;
+        height: 100%;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    #btn-submit, #btn-clear{
+        margin-top: 5px;
+    }
+    div,p,h1,section{
+        transition-duration: 1s;
     }
 }

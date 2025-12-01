@@ -5,6 +5,10 @@
     padding: 0px;
 }
 
+p,h1,section{
+    transition-duration: 0.5s;
+    height: 0.5s;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(165, 54, 255);
@@ -45,7 +49,7 @@ section#container-login{
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.644);
 }
 
-section > span{
+div#imagem{
     background-image: url(../imagens/metal-pattern.jpg);
     background-size: cover;
     background-position: right center;
@@ -127,3 +131,4 @@ p.user .material-symbols-outlined{
     transform: translateY(-50%);
     margin: 0px 0px 0px 10px;
 }
+
