@@ -26,10 +26,6 @@
         margin-top: 5px;
     }
 
-    #imagem,section{
-        transition-duration: 1s;
-    }
-
     body{
         overflow-y: auto;
     }
@@ -61,10 +57,6 @@
     }
     #btn-submit, #btn-clear{
         margin-top: 5px;
-    }
-
-    #imagem,section{
-        transition-duration: 1s;
     }
 }
 
@@ -99,8 +91,5 @@
 
     #btn-submit, #btn-clear{
         margin-top: 5px;
-    }
-    div,p,h1,section{
-        transition-duration: 1s;
     }
 }
