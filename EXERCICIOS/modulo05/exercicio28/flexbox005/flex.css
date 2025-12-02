@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: goldenrod;
+}
+
+.container{
+    display: flex;
+    width: 90vw;
+    height: 90vh;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: aquamarine;
+}
+
+.item{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+}
