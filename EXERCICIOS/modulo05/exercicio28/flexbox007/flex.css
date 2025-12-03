@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: orange;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+
+}
+
+.item{
+    background-color: rgb(140, 255, 236);
+    width: 100px;
+    padding: 20px;
+}
+
+div#i1{
+    order: 2;
+    align-self: flex-start;
+}
+div#i2{
+    order: 0;
+    align-self: flex-end;
+}
+div#i3{
+    order: -1;
+    height: auto;
+    align-self: stretch;
+}
+div#i4{
+    order: -7;
+}
+div#i5{
+    order: 9;
+}
+div#i6{
+    order: 7;
+}
+div#i7{
+    order: -2;
+}
+div#i8{
+    order: 5;
+}
+div#i9{
+    order: 2;
+}
