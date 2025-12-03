@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: orange;
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}   
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 156, 255);
+    border: 1px solid black;
+    
+}
