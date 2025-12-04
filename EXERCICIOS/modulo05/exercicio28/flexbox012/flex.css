@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkred;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    height: 100%;
+}
+
+.item{
+    height: 100px;
+    
+    align-content: center;
+
+    background-color: rgb(139, 144, 219);
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+#item1{
+   flex: 0 1 150px;
+}
+
+#item2{
+   flex: 1 2 250px;
+}
+
+#item3{
+    flex: 2 1 10px;
+}
