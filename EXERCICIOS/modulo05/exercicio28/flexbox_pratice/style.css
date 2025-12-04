@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    --bg-color: darkblue;
+    --secondary-color: darkslategrey;
+    --text-color: white;
+    --font-default: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-default);
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    position: relative;
+    padding: 30px;
+}
+
+/*Nav Primária*/
+header nav.nav-container{
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    padding: 15px;
+}
+header nav.nav-container img{
+
+}
+
+header nav.nav-container h3{
+    display:inline;
+    text-align: left;
+}
+
+header nav.nav-container button{
+    position: absolute;
+    right: 0%;
+    transform: translateX(-50%);
+}
+
+/*Nav Secundária*/
+header > div.nav-secondary {
+    display: flex;
+
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+header > div.nav-secondary h2{
+    text-align: start;
+}
+
+header > div.nav-secondary div{
+    
+}
+
+
+
+
+/*Content*/
+main{
+    display: flex;
+    padding: 30px;
+}
+
+article#card{
+
+}
+
+article#card img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+article#card section{
+
+}
+
+article#card section h3{
+
+}
+
+article#card section p{
+
+}
+
+article#card button{
+
+}
+
+article#card button:hover{
+
+}
+
+article#card input[type="checkbox"]{
+
+}
