@@ -1,0 +1,35 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    background-color: orange;
+    height: 200px;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.item {
+    background-color: mediumpurple;
+    width: 100px;
+    padding: 20px;
+    flex-basis: auto;
+    border: 1px solid black;
+}
+
+#item1 {
+    flex-basis: 150px;
+}
+
+#item5 {
+    flex-basis: stretch;
+}
