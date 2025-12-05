@@ -100,7 +100,7 @@ header nav.nav-container button > img{
 }
 
 
-/*Nav Secund�ria*/
+/*Nav Secund ria*/
 header > div.nav-secondary {
     display: flex;
     padding-top: 30px;
@@ -143,6 +143,8 @@ header > div.nav-secondary button:hover{
 
 /*MAIN*/
 main{
+    max-width: 1320px; 
+    margin: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -189,6 +191,7 @@ article.card button{
     width: max-content;
     height: 30px;
     
+    margin-top: 10px;
     padding: 0px 15px 0px 15px;
     font-size: 15px;
     color: var(--Neutral0);
@@ -197,6 +200,7 @@ article.card button{
     border-radius: 15px;
     box-shadow: 0px 0px 1.5px;
     cursor: pointer;
+    
 }
 
 article.card button:hover{
@@ -205,5 +209,4 @@ article.card button:hover{
 
 article.card input{
     margin-left: auto;
-
 }

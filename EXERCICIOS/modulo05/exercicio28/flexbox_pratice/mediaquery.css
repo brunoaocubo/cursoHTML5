@@ -1,12 +1,151 @@
+/*
 @media screen and (max-width: 1080px){
-    main{
+    header{
+        display: flex;
         flex-flow: column wrap;
-        padding-inline: 30px;
+        align-items: center;
+        justify-content: center;
     }
-
-    article.card{
-        margin-top: 200px;
-        margin-bottom: 200px;
-        transform: scale(300%);
+    header nav.nav-container{
+        width: 100%; 
+        flex: 1 1 auto;
     }
+    header div.nav-secondary{
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-self: center;
+    }
+    header div.nav-secondary h2{
+        flex: 1 1 100%;
+        text-align: center;
+    }
+    header
 }
+*/
+
+@font-face{
+    font-family: NotoSans;
+    src: url(fonts/NotoSans-VariableFont_wdth\,wght.ttf);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "NotoSans";
+}
+
+:root{
+    --Neutral900: hsl(227, 75%, 14%);
+    --Neutral800: hsl(226, 25%, 17%);
+    --Neutral700: hsl(225, 23%, 24%);
+    --Neutral600: hsl(226, 11%, 37%);
+    --Neutral300: hsl(0, 0%, 78%);
+    --Neutral200: hsl(217, 61%, 90%);
+    --Neutral100: hsl(0, 0%, 93%);
+    --Neutral0: hsl(200, 60%, 99%);
+
+    --Red400: hsl(3, 86%, 64%);
+    --Red500: hsl(3, 71%, 56%);
+    --Red700: hsl(3, 77%, 44%);
+
+    /*Gradient BG*/ 
+    --LightGradient: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
+    --DarkGradient: linear-gradient(180deg, #040918 0%, #091540 100%);
+
+    --font-default: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+
+    background-image: var(--DarkGradient);
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px; 
+}
+
+header nav.nav-container{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 10px;
+
+    background-color: var(--Neutral800);
+    border-radius: 15px;
+}
+
+header nav.nav-container p{
+    flex: 1 0 auto;
+
+    font-size: 1.5em;
+    color: var(--Neutral0);
+}
+
+header nav.nav-container button{
+    width: 40px;
+    height: 40px;
+    padding-top: 4px;
+
+    border: none;
+    border-radius: 15px;
+
+    background-color: var(--Neutral700);
+}
+
+header nav.nav-container button:hover{background-color: var(--Neutral600); cursor: pointer;}
+button.btnfocus:focus{border: 1px solid var(--Red400); background-color: var(--Neutral600);}
+
+header div.nav-secondary{
+   display: flex;
+   flex-flow: column wrap;
+   align-items: center;
+   justify-content: center;
+    
+   width: 100%;
+}
+
+header div.nav-secondary h2{color: var(--Neutral0); padding: 20px 15px 0px 15px; font-size: 2.5em;}
+
+header div.nav-secondary div{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+    width: 100%;
+}
+
+header div.nav-secondary div button{
+    flex: 1 1 auto;
+    padding: 7px;
+
+    border: none;
+    border-radius: 15px;
+    font-size: 1em;
+    
+    background-color: var(--Neutral700);
+    color: var(--Neutral200);
+}
+
+header div.nav-secondary div button:hover{background-color: var(--Neutral600); cursor: pointer;}
+header div.nav-secondary div button:focus{color: var(--Neutral900); background-color: var(--Red500);}
+
+
+
