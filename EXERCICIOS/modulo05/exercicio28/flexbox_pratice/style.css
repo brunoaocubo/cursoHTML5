@@ -67,10 +67,8 @@ header nav.nav-container{
 
     border-radius: 15px;
     justify-content: center;
-    max-inline-size: 2000px;
 
     flex: 1;
-    
 }
 
 header nav.nav-container p{

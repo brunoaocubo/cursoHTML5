@@ -1,0 +1,12 @@
+@media screen and (max-width: 1080px){
+    main{
+        flex-flow: column wrap;
+        padding-inline: 30px;
+    }
+
+    article.card{
+        margin-top: 200px;
+        margin-bottom: 200px;
+        transform: scale(300%);
+    }
+}
