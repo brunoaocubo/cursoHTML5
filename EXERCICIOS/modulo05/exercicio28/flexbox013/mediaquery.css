@@ -3,17 +3,30 @@
         display: flex;
         justify-content: flex-start;
         flex-flow: row wrap;
+
+        
     }
     header nav{
         display: flex;
         flex-flow: row wrap;
+        justify-content: flex-end;
         width: max-content;
         
+        padding-inline: 10px;
+        padding-bottom: 0px;
     }
     header nav a{
         width: max-content;
         flex: 1 1 auto;
     }
+
+    header nav a:hover{
+        background-color: var(--neutral0);
+        color: var(--neutral800);
+
+        transition: background-color 0.5s;
+    }
+
     header h1{
         flex:1 0 350px;
     }

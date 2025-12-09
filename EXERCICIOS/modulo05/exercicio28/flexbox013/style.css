@@ -16,6 +16,7 @@ body{
     height: 100vh;
 
     background-color: var(--neutral100);
+    transition: 0.3s;
 }
 
 header{
@@ -26,7 +27,8 @@ header{
 
     width: 100%;
 
-    background-color: var(--neutral300)
+    background-color: var(--neutral300);
+    
 }
 
 header nav{
