@@ -15,17 +15,33 @@ body{
     height: 100vh;
 }
 
-header{
+.container-normal{
+    width: 100%;
     padding: 10px;
 }
 
-main{
+.container-flex{
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
 
-    padding: 20px;
-
+    width: 100%;
+    
     background-color: var(--neutral200);
+}
+
+.media-text{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.text{
+    flex: 0 0 50%;
+    order: -1;
+}
+
+.media{
+    flex: 0 0;
+    order: -1;
 }
