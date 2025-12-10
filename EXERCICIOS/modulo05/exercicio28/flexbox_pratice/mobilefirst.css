@@ -33,9 +33,10 @@
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box;
-    font-size: 16px;
+    box-sizing:border-box;
+    font-size: 1em;
     font-family: "NotoSans";
+    scrollbar-width: none;
 }
 
 :root{
@@ -63,9 +64,10 @@ body{
     width: 100vw;
     height: 100vh;
     padding: 20px;
-
+    
     background-image: var(--DarkGradient);
     background-attachment: fixed;
+    
 }
 
 header{
@@ -77,7 +79,7 @@ header{
     padding: 20px; 
 }
 
-header nav.nav-container{
+header div.logo-container{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -90,14 +92,14 @@ header nav.nav-container{
     border-radius: 15px;
 }
 
-header nav.nav-container p{
+header div.logo-container p{
     flex: 1 0 auto;
 
     font-size: 1.5em;
     color: var(--Neutral0);
 }
 
-header nav.nav-container button{
+header div.logo-container button{
     width: 40px;
     height: 40px;
     padding-top: 4px;
@@ -108,10 +110,10 @@ header nav.nav-container button{
     background-color: var(--Neutral700);
 }
 
-header nav.nav-container button:hover{background-color: var(--Neutral600); cursor: pointer;}
-button.btnfocus:focus{border: 1px solid var(--Red400); background-color: var(--Neutral600);}
+header div.logo-container button:hover{background-color: var(--Neutral600); cursor: pointer;}
+button.btnfocus:focus{background-color: var(--Neutral600);}
 
-header div.nav-secondary{
+header div.navegation{
    display: flex;
    flex-flow: column wrap;
    align-items: center;
@@ -120,9 +122,9 @@ header div.nav-secondary{
    width: 100%;
 }
 
-header div.nav-secondary h2{color: var(--Neutral0); padding: 20px 15px 0px 15px; font-size: 2.5em;}
+header div.navegation h2{color: var(--Neutral0); padding: 20px 15px 15px 15px; font-size: 2em;}
 
-header div.nav-secondary div{
+header div.navegation div{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -132,7 +134,7 @@ header div.nav-secondary div{
     width: 100%;
 }
 
-header div.nav-secondary div button{
+header div.navegation div button{
     flex: 1 1 auto;
     padding: 7px;
 
@@ -144,8 +146,81 @@ header div.nav-secondary div button{
     color: var(--Neutral200);
 }
 
-header div.nav-secondary div button:hover{background-color: var(--Neutral600); cursor: pointer;}
-header div.nav-secondary div button:focus{color: var(--Neutral900); background-color: var(--Red500);}
+header div.navegation div button:hover{background-color: var(--Neutral600); cursor: pointer;}
+header div.navegation div button:focus{color: var(--Neutral900); background-color: var(--Red500);}
+
+
+h3{
+    color: var(--Neutral0);
+}
+
+p{
+    color: var(--Neutral300);
+}
+
+main{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+section.card{
+    display: flex;
+    flex-flow: row wrap;
+
+    padding: 20px;
+    gap: 10px;
+    margin-bottom: 10px;
+
+    background-color: var(--Neutral800);
+    border-radius: 15px;
+}
+
+section.card > img{
+    flex: 0 0 content;
+    align-self: flex-start;
+
+    /* border: 1px dashed orange; */
+}
+
+section.card > div.content-card{
+    flex: 1 0;
+    display: flex;
+    flex-flow: column wrap;
+    
+    gap: 5px;
+    /* border: 1px dashed red; */
+}
+
+section.card > div.content-card > p{
+    font-size: 0.9em;
+    text-align: left;
+}
+
+section.card > div.clickables{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 10px 0px;
+    /* border: 1px dashed green; */
+}
+
+section.card > div.clickables button{
+    padding: 5px 15px;
+
+    border-style: none;
+    border: 1px solid var(--Neutral600);
+    border-radius: 20px;
+    
+    font-size: 0.9em;
+    background-color: var(--Neutral800);
+    color: var(--Neutral0);
+}
+
+section.card > div.clickables input{
+    color: #040918;
+}
 
 
 

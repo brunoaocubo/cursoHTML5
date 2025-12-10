@@ -5,19 +5,20 @@
     <metaviewport content="width=device-width, initial-scale=1.0"/>
     <title>Site Responsivo com Flexbox</title>
     <!--<link rel="stylesheet" href="style.css" media="all">-->
-    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="stylesheet" href="mobilefirst.css" media="all">
+    
 
 </head>
 <body>
     <header>
-        <nav class="nav-container">
+        <div class="logo-container">
             <img src="imagens/logo2.png" alt="Logo do Site" />
             <p>Extensions</p>
             <button class="btnfocus">
                 <img src="imagens/icon-sun.svg" alt="Alternate Text" />
             </button>
-        </nav>
-        <div class="nav-secondary">
+        </div>
+        <div class="navegation">
             <h2>Extensions List</h2>
             <div>
                 <button id="btn_all" class="btnfocus">All</button>
@@ -27,117 +28,141 @@
         </div>
     </header>
     <main>
-        <article class="card">
+        <section class="card"> 
             <img src="imagens/logo-devlens.svg" alt="Dev Lens" />
-            <section>
+            <div class="content-card">
                 <h3>DevLens</h3>
                 <p>Extension description goes here. It provides an overview of the extension's features and functionalities.</p>
-            </section>
-            
-            <button class="btnfocus">Remove</button>
-            <input type="checkbox" />
-        </article>
-        <article class="card">
+            </div>
+            <div class="clickables">
+                <button class="btnfocus">Remove</button>
+                <input type="checkbox" />
+            </div>
+        </section>
+        
+        <section class="card">
             <img src="imagens/logo-style-spy.svg" alt="Style Spy" />
-            <section>
+            <div class="content-card">
                 <h3>StyleSpy</h3>
                 <p>Extension description goes here. It provides an overview of the extension's features and functionalities.</p>
-            </section>
-            <button class="btnfocus">Remove</button>
-            <input type="checkbox" />
-        </article>
-        <article class="card">
+            </div class="content-card">
+            <div class="clickables">
+                <button class="btnfocus">Remove</button>
+                <input type="checkbox" />
+            </div>
+        </section>
+        <section class="card">
             <img src="imagens/logo-speed-boost.svg" alt="Speed Boost" />
-            <section>
+            <div class="content-card">
                 <h3>SpeedBoost</h3>
                 <p>Extension description goes here. It provides an overview of the extension's features and functionalities.</p>
-            </section>
-            <button class="btnfocus">Remove</button>
-            <input type="checkbox" />
-        </article>
-        <article class="card">
+            </div class="content-card">
+            <div class="clickables">
+                <button class="btnfocus">Remove</button>
+                <input type="checkbox" />
+            </div>
+        </section>
+        <section class="card">
             <img src="imagens/logo-json-wizard.svg" alt="Json Wizard" />
-            <section>
+            <div class="content-card">
                 <h3>JsonWIZARD</h3>
                 <p>Extension description goes here. It provides an overview of the extension's features and functionalities.</p>
-            </section>
-            <button class="btnfocus">Remove</button>
-            <input type="checkbox" />
-        </article>
-        <article class="card">
+            </div class="content-card">
+            <div class="clickables">
+                <button class="btnfocus">Remove</button>
+                <input type="checkbox" />
+            </div>
+        </section>
+        <section class="card">
             <img src="imagens/logo-tab-master-pro.svg" alt="TabMaster Pro" />
-            <section>
+            <div class="content-card">
                 <h3>TabMaster Pro</h3>
                 <p>Extension description goes here. It provides an overview of the extension's features and functionalities.</p>
-            </section>
-            <button class="btnfocus">Remove</button>
-            <input type="checkbox" />
-        </article>
-        <article class="card">
+            </div class="content-card">
+            <div class="clickables">
+                <button class="btnfocus">Remove</button>
+                <input type="checkbox" />
+            </div>
+        </section>
+        <section class="card">
             <img src="imagens/logo-viewport-buddy.svg" alt="viewport buddy" />
-            <section>
+            <div class="content-card">
                 <h3>ViewportBuddy</h3>
                 <p>Extension description goes here. It provides an overview of the extension's features and functionalities.</p>
-            </section>
-            <button class="btnfocus">Remove</button>
-            <input type="checkbox" />
-        </article>
+            </div class="content-card">
+            <div class="clickables">
+                <button class="btnfocus">Remove</button>
+                <input type="checkbox" />
+            </div>
+        </section>
 
-        <article class="card">
+        <section class="card">
             <img src="imagens/logo-markup-notes.svg" alt="Markup Notes" />
-            <section>
+            <div class="content-card">
                 <h3>Markup Notes</h3>
                 <p>Extension description goes here. It provides an overview of the extension's features and functionalities.</p>
-            </section>
-            <button class="btnfocus">Remove</button>
-            <input type="checkbox" />
-        </article>
+            </div class="content-card">
+            <div class="clickables">
+                <button class="btnfocus">Remove</button>
+                <input type="checkbox" />
+            </div>
+        </section>
 
-        <article class="card">
+        <section class="card">
             <img src="imagens/logo-grid-guides.svg" alt="Grid Guides" />
-            <section>
+            <div class="content-card">
                 <h3>Grid Guides</h3>
                 <p>Extension description goes here. It provides an overview of the extension's features and functionalities.</p>
-            </section>
-            <button class="btnfocus">Remove</button>
-            <input type="checkbox" />
-        </article>
-        <article class="card">
+            </div class="content-card">
+            <div class="clickables">
+                <button class="btnfocus">Remove</button>
+                <input type="checkbox" />
+            </div>
+        </section>
+        <section class="card">
             <img src="imagens/logo-palette-picker.svg" alt="Pallete Picker" />
-            <section>
+            <div class="content-card">
                 <h3>Pallete Picker</h3>
                 <p>Extension description goes here. It provides an overview of the extension's features and functionalities.</p>
-            </section>
-            <button class="btnfocus">Remove</button>
-            <input type="checkbox" />
-        </article>
-        <article class="card">
+            </div class="content-card">
+            <div class="clickables">
+                <button class="btnfocus">Remove</button>
+                <input type="checkbox" />
+            </div>
+        </section>
+        <section class="card">
             <img src="imagens/logo-link-checker.svg" alt="Link Checker" />
-            <section>
+            <div class="content-card">
                 <h3>Link Checker</h3>
                 <p>Extension description goes here. It provides an overview of the extension's features and functionalities.</p>
-            </section>
-            <button class="btnfocus">Remove</button>
-            <input type="checkbox" />
-        </article>
-        <article class="card">
+            </div class="content-card">
+            <div class="clickables">
+                <button class="btnfocus">Remove</button>
+                <input type="checkbox" />
+            </div>
+        </section>
+        <section class="card">
             <img src="imagens/logo-dom-snapshot.svg" alt="Dom Snapshot" />
-            <section>
+            <div class="content-card">
                 <h3>Dom Snapshot</h3>
                 <p>Extension description goes here. It provides an overview of the extension's features and functionalities.</p>
-            </section>
-            <button class="btnfocus">Remove</button>
-            <input type="checkbox" />
-        </article>
-        <article class="card">
+            </div class="content-card">
+            <div class="clickables">
+                <button class="btnfocus">Remove</button>
+                <input type="checkbox" />
+            </div>
+        </section>
+        <section class="card">
             <img src="imagens/logo-console-plus.svg" alt="Console Plus" />
-            <section>
+            <div class="content-card">
                 <h3>Console Plus</h3>
                 <p>Extension description goes here. It provides an overview of the extension's features and functionalities.</p>
-            </section>
-            <button class="btnfocus">Remove</button>
-            <input type="checkbox" />
-        </article>
+            </div class="content-card">
+            <div class="clickables">
+                <button class="btnfocus">Remove</button>
+                <input type="checkbox" />
+            </div>
+        </section>
     </main>
 </body>
 </html>
