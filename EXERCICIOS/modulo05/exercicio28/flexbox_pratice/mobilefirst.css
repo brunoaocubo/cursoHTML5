@@ -1,30 +1,3 @@
-/*
-@media screen and (max-width: 1080px){
-    header{
-        display: flex;
-        flex-flow: column wrap;
-        align-items: center;
-        justify-content: center;
-    }
-    header nav.nav-container{
-        width: 100%; 
-        flex: 1 1 auto;
-    }
-    header div.nav-secondary{
-        width: 100%;
-        display: flex;
-        flex-flow: row wrap;
-        align-items: center;
-        justify-self: center;
-    }
-    header div.nav-secondary h2{
-        flex: 1 1 100%;
-        text-align: center;
-    }
-    header
-}
-*/
-
 @font-face{
     font-family: NotoSans;
     src: url(fonts/NotoSans-VariableFont_wdth\,wght.ttf);
@@ -67,7 +40,6 @@ body{
     
     background-image: var(--DarkGradient);
     background-attachment: fixed;
-    
 }
 
 header{
@@ -146,8 +118,8 @@ header div.navegation div button{
     color: var(--Neutral200);
 }
 
-header div.navegation div button:hover{background-color: var(--Neutral600); cursor: pointer;}
-header div.navegation div button:focus{color: var(--Neutral900); background-color: var(--Red500);}
+header div.navegation div button.btnfocus:hover{background-color: var(--Neutral600); cursor: pointer;}
+header div.navegation div button.btnfocus:focus{color: var(--Neutral900); background-color: var(--Red500);}
 
 
 h3{
@@ -160,10 +132,17 @@ p{
 
 main{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row nowrap;
+    justify-content: center;
 }
 
-section.card{
+main > section{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+}
+
+article.card{
     display: flex;
     flex-flow: row wrap;
 
@@ -175,38 +154,34 @@ section.card{
     border-radius: 15px;
 }
 
-section.card > img{
+article.card > img{
     flex: 0 0 content;
     align-self: flex-start;
-
-    /* border: 1px dashed orange; */
 }
 
-section.card > div.content-card{
+article.card > div.content-card{
     flex: 1 0;
     display: flex;
     flex-flow: column wrap;
     
     gap: 5px;
-    /* border: 1px dashed red; */
 }
 
-section.card > div.content-card > p{
+article.card > div.content-card > p{
     font-size: 0.9em;
     text-align: left;
 }
 
-section.card > div.clickables{
+article.card > div.clickables{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
 
     width: 100%;
     padding: 10px 0px;
-    /* border: 1px dashed green; */
 }
 
-section.card > div.clickables button{
+article.card > div.clickables button{
     padding: 5px 15px;
 
     border-style: none;
@@ -218,9 +193,13 @@ section.card > div.clickables button{
     color: var(--Neutral0);
 }
 
-section.card > div.clickables input{
-    color: #040918;
+article.card > div.clickables button.btnfocus:hover{
+    background-color: var(--Neutral0);
+    color: var(--Neutral900);
+    cursor: pointer;
 }
 
-
-
+article.card > div.clickables input{
+    color: #040918;
+    max-width: 5vw;
+}

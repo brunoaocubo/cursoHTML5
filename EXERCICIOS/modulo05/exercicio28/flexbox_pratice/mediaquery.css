@@ -1,0 +1,76 @@
+@media screen and (orientation: landscape) and (min-width: 800px){
+
+    /*LOGO*/
+    header div.logo-container{
+        max-width: 1200px;
+        height: 40px; 
+        padding: 0px 10px;
+        border-radius: 10px;    
+    }
+    header div.logo-container > img{
+        width: 30px;
+    }
+    header div.logo-container > p{
+        font-size: 1em;
+    }
+    header div.logo-container > button{
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+    }
+
+    /*NAVEGATION*/
+
+    header > div.navegation{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+            
+        max-width: 1200px;
+        padding-top: 10px;
+    }
+
+    header div.navegation > h2{
+        align-self: flex-start;
+
+        color: var(--Neutral0); padding: 0px 0px 0px 0px; font-size: 2em;
+    }
+
+    header div.navegation > div{
+        justify-content: flex-end;
+        flex: 8 7;
+    }
+
+    header div.navegation div > button.btnfocus{
+        flex: 0 0 70px;
+        
+        padding: 7px;
+
+        border: none;
+        border-radius: 15px;
+        font-size: 1em;
+
+        background-color: var(--Neutral700);
+        color: var(--Neutral200);
+    }
+
+    main{
+        width: 100%;
+    }
+
+    main > section{
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+
+        max-width: 1200px;
+    }
+
+    main section > article.card{
+        width: 380px;
+        margin-bottom: 0px;
+        flex: 1 1 auto;
+    }
+}
