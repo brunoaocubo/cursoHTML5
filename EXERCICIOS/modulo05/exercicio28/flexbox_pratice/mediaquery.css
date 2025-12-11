@@ -34,7 +34,8 @@
     header div.navegation > h2{
         align-self: flex-start;
 
-        color: var(--Neutral0); padding: 0px 0px 0px 0px; font-size: 2em;
+        color: var(--Neutral0); padding: 0px 0px 0px 0px; 
+        font-size: 2em;
     }
 
     header div.navegation > div{
@@ -71,6 +72,22 @@
     main section > article.card{
         width: 380px;
         margin-bottom: 0px;
-        flex: 1 1 auto;
+        flex
+        : 1 1 auto;
     }
+
+    h3{
+    color: var(--Neutral0);
+    font-size: 1em;
+}
+
+    article.card > div.content-card > p{
+    font-size: 0.9em;
+    }
+
+    article.card > div.clickables button{
+    font-size: 1em;
+}
+
+
 }

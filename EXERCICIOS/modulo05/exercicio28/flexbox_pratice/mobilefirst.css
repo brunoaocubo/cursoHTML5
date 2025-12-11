@@ -94,7 +94,7 @@ header div.navegation{
    width: 100%;
 }
 
-header div.navegation h2{color: var(--Neutral0); padding: 20px 15px 15px 15px; font-size: 2em;}
+header div.navegation h2{color: var(--Neutral0); padding: 20px 15px 15px 15px; font-size: 2.5em;}
 
 header div.navegation div{
     display: flex;
@@ -112,7 +112,7 @@ header div.navegation div button{
 
     border: none;
     border-radius: 15px;
-    font-size: 1em;
+    font-size: 2em;
     
     background-color: var(--Neutral700);
     color: var(--Neutral200);
@@ -124,6 +124,7 @@ header div.navegation div button.btnfocus:focus{color: var(--Neutral900); backgr
 
 h3{
     color: var(--Neutral0);
+    font-size: 1.5em;
 }
 
 p{
@@ -168,7 +169,7 @@ article.card > div.content-card{
 }
 
 article.card > div.content-card > p{
-    font-size: 0.9em;
+    font-size: 1.3em;
     text-align: left;
 }
 
@@ -176,9 +177,10 @@ article.card > div.clickables{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
 
     width: 100%;
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
 
 article.card > div.clickables button{
@@ -188,10 +190,11 @@ article.card > div.clickables button{
     border: 1px solid var(--Neutral600);
     border-radius: 20px;
     
-    font-size: 0.9em;
+    font-size: 1.5em;
     background-color: var(--Neutral800);
     color: var(--Neutral0);
 }
+
 
 article.card > div.clickables button.btnfocus:hover{
     background-color: var(--Neutral0);
@@ -201,5 +204,7 @@ article.card > div.clickables button.btnfocus:hover{
 
 article.card > div.clickables input{
     color: #040918;
+    
     max-width: 5vw;
+
 }
