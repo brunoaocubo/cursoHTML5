@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template: repeat(3, auto)/ repeat(3, auto);  
+    place-items: start center;
+    place-content: space-between end;
+
+    gap: 10px;
+
+    height: 250px;
+    border: 2px dashed orange;
+}
+
+.item{
+    background-color: lightblue;
+    text-align: center;
+
+    border: 2px solid black;
+}
