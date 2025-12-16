@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100px 40% repeat(2, 1fr);
+    grid-template-rows: repeat(3, 80px);  
+    grid-auto-rows: 80px;
+    grid-auto-columns: 120px;
+    place-items: normal normal;
+    place-content: normal normal;
+
+    
+    gap: 10px;
+    border: 2px dashed orange;
+}
+
+.item{
+    background-color: lightblue;
+    text-align: center;
+
+    border: 2px solid black;
+}
