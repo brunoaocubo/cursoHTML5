@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+main{
+    display: grid;
+    grid-template: 2fr 1fr 5fr 1fr / 1fr 3fr 1fr ;
+    gap: 10px;
+
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+}
+
+.topo{
+    grid-area: 1 / 1 / 2 / -1;
+}
+.menu{
+    grid-area: 2 / 1 / 3 / -1;
+}
+.principal{
+    grid-area: 3 / 1 / 4 / 3;
+}
+.secundario{
+    grid-area: 3 / 3 / 4 / -1;
+}
+.rodape{
+    grid-area: 4 / 1 / -1 / -1;
+}
+
